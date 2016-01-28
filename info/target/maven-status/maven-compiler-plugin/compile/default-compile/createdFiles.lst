@@ -1,0 +1,8 @@
+com/info/App.class
+com/info/controller/SampleController.class
+com/info/repository/RegistrationRepository.class
+com/info/model/Registration.class
+com/info/model/Registration$Role.class
+com/info/model/Basemodel.class
+com/info/controller/RegistrationAPIController.class
+com/info/service/RegistrationService.class
