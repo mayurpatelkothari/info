@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/java:latest
+    steps:
+      - checkout
+      - run: cd info
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
